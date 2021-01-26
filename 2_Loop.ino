@@ -5,5 +5,7 @@ void loop() {
     char msg[2];
     msg[0] = mySerial.read();
     msg[1] = mySerial.read();
+
+    DecodeAction(msg[0]);
   }
 }
