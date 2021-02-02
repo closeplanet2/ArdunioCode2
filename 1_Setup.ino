@@ -9,9 +9,6 @@ void setup() {
   servoFour.attach(33);
   servoFive.attach(34);
   servoSix.attach(35);
-  servoSeven.attach(36);
-  servoEight.attach(37);
-  servoNine.attach(38);
 
   buttonOne.attachClick(Button1);
 }

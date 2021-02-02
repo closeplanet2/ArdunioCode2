@@ -11,11 +11,10 @@ Servo servoThree;
 Servo servoFour;
 Servo servoFive;
 Servo servoSix;
-Servo servoSeven;
-Servo servoEight;
-Servo servoNine;
 
 int distanceList[] = {100,80,60,40,20,0,0};
+
 int currentPump = 0;
 int currentDistance = -1;
 int directionForward = 0;
+int lastPump = 0;
